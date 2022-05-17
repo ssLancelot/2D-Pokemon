@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a7e030dde7ab54e857d83349542cbc, type: 3}
+  m_Name: QuickAttack
+  m_EditorClassIdentifier: 
+  _name: Quick Attack
+  _description: 
+  _type: 0
+  _power: 40
+  _accuary: 100
+  _alwaysHits: 0
+  _pp: 20
+  _priority: 1
+  _category: 0
+  _effeckts:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+  _secondaries: []
+  _target: 0

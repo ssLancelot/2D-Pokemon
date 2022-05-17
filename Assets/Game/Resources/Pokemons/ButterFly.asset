@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b266236bc31124f40aebb2689dc207dc, type: 3}
+  m_Name: ButterFly
+  m_EditorClassIdentifier: 
+  _name: Butterfly
+  _description: 
+  _frontSprite: {fileID: 21300000, guid: c3053b6d051f1e74d822d91887b12c9e, type: 3}
+  _backSprite: {fileID: 21300000, guid: e5a470a98fe25fd43878231b65f684b7, type: 3}
+  _type1: 12
+  _type2: 10
+  _growthRate: 0
+  _maxHp: 60
+  _attack: 45
+  _defanse: 50
+  _spAttack: 90
+  _spDefanse: 80
+  _speed: 70
+  _expYield: 68
+  _catchRate: 255
+  _learnableMoves:
+  - _moveBase: {fileID: 11400000, guid: a78680382a5fc0d48ab9329be92ceb4d, type: 2}
+    _level: 1
+  - _moveBase: {fileID: 11400000, guid: 7a88e8502f62f3e41983f5d9fb71ecb9, type: 2}
+    _level: 10
+  - _moveBase: {fileID: 11400000, guid: 7a88e8502f62f3e41983f5d9fb71ecb9, type: 2}
+    _level: 5
